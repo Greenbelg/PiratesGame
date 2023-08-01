@@ -1417,7 +1417,7 @@ GameObject:
   - component: {fileID: 608811874}
   - component: {fileID: 608811873}
   - component: {fileID: 608811875}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Barrel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8541,12 +8541,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 1152546799}
-  jumpForce: 10
+  animator: {fileID: 0}
+  jumpForce: 125
   groundLayer:
     serializedVersion: 2
-    m_Bits: 2147483647
+    m_Bits: 8
   groundCheck: {fileID: 1152546797}
-  groundCheckRadius: 0.2
+  groundCheckRadius: 2.5
 --- !u!1 &1279227040
 GameObject:
   m_ObjectHideFlags: 0
@@ -18329,7 +18330,7 @@ GameObject:
   - component: {fileID: 1881172910}
   - component: {fileID: 1881172909}
   - component: {fileID: 1881172908}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: floor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
